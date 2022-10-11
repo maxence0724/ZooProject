@@ -1,0 +1,17 @@
+.bandeauHaut{
+    background-color: #25B2A2;
+}
+
+.menu{
+    position: relative;
+    float: left;
+}
+
+.titre{
+    position: relative;
+}
+.nom_zoo{
+    color:#404040;
+    margin-right: 200px;
+    text-align: right;
+}
