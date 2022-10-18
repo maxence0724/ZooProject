@@ -1,0 +1,39 @@
+CREATE TABLE Lieu(
+   idLieu INT,
+   emplacement VARCHAR(50),
+   PRIMARY KEY(idLieu)
+);
+
+CREATE TABLE Achats(
+   idTicket INT,
+   nom VARCHAR(50),
+   scan boolean,
+   dateTicket DATE,
+   PRIMARY KEY(idTicket)
+);
+
+CREATE TABLE Animal(
+   idAnimal INT,
+   espèce VARCHAR(50),
+   classe VARCHAR(50),
+   ordre VARCHAR(50),
+   famille VARCHAR(50),
+   genre VARCHAR(50),
+   taille VARCHAR(50),
+   poids VARCHAR(50),
+   repartition VARCHAR(50),
+   habitat VARCHAR(50),
+   modeDeVie VARCHAR(50),
+   regimeAlimentaire VARCHAR(50),
+   incubation VARCHAR(50),
+   nombreOeufs VARCHAR(50),
+   maturiteSexuelle VARCHAR(50),
+   longevite VARCHAR(50),
+   statutDeConservationUICN VARCHAR(50),
+   population INT,
+   menaces VARCHAR(50),
+   description VARCHAR(50),
+   idLieu INT NOT NULL,
+   PRIMARY KEY(idAnimal),
+   FOREIGN KEY(idLieu) REFERENCES Lieu(idLieu)
+);
