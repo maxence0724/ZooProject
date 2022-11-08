@@ -75,7 +75,7 @@
     right: 25px;
     font-size: 36px;
 }
-  
+
   /* Icône burger */
 #openBtn span {
     display: block;
@@ -107,4 +107,43 @@
 .row{
   display: flex;
   column-width: 200px;
+}
+
+
+.BodyDescription{
+  background-color: #1e1e1e;
+
+}
+
+.BoxGlobal{
+  display: grid;
+  grid-template-columns: 4;
+  grid-template-rows: auto;
+  gap: 100px;
+  margin-left: 40px;
+
+}
+
+
+.description_img{
+  width: 250px;
+  height: 250px;
+}
+
+
+
+.aigle{
+  grid-column: 1;
+
+}
+.perroquet_bleu{
+  grid-column: 2;
+}
+
+.perroquet{
+  grid-column: 3;
+}
+
+.autruche{
+  grid-column: 4;
 }

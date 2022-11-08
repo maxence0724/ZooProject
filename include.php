@@ -12,58 +12,7 @@
  <body>
   
 <div class="bandeauHaut">
-<div class="menu">
 
-                  <div id="mySidenav" class="sidenav">
-  <a id="closeBtn" href="#" class="close">×</a>
-  <ul>
-    <li><a href="#">A propos</a></li>
-    <li><a href="#">Nos services</a></li>
-    <li><a href="#">Témoignages</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-      
-
-
-
-
-</div class="burger">
-      <div id="mySidenav" class="sidenav">
-      <a id="closeBtn" href="#" class="close">×</a>
-      <ul>
-        <li>
-          <a href="#">A propos</a>
-        </li>
-        <li>
-          <a href="#">Nos services</a>
-        </li>
-        <li>  
-          <a href="#">Témoignages</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-  
-
-<a href="#" id="openBtn">
-<img src="image/burger.png" height="100px" width="100px">
-    <span></span>
-    <span></span>
-    <span></span>
-  </span>
-</a>
-
-</div>
-
-<script src="menuburger.js"></script>
-
-
-
-
-
-
-</div>
 <div class="titre">
 <h1 class="nom_zoo">Parc Zoologique<br>Bovalle</h1>
 </div>
