@@ -6,7 +6,7 @@ include("connexion.php");
     <body>
         <h1>Nouvel Animal</h1>
         <h2>Entrez les données demandées :</h2>
-        <form name="inscription" method="post" action="form.php">
+        <form name="inscription" method="post" action="insertion.php">
             Espèce  : <input type="text" name="espece"/> <br/>
             Classe  : <input type="text" name="classe"/> <br/>
             Ordre : <input type="text" name="ordre"/><br/>
@@ -64,27 +64,27 @@ include("connexion.php");
             $menaces=$_POST['menaces'];
             $description=$_POST['description'];
             $statutDeConservationUICN=$_POST['statutDeConservationUICN'];
-            $lieu=$_POST['emplacement']
-
-            //On construit la date d'aujourd'hui
-            //strictement comme sql la construit
-            $today = date("y-m-d");
-            //On se connecte
-            connectMaBase();
- 
+            $lieu=$_POST['emplacement'];
+            try {
+                $dbh = new PDO('mysql:host=localhost;dbname=zoo','root', '');
+            }
+            catch(PDOException $e){
+                printf("Échec de la connexion : %s\n", $e->getMessage());
+                exit();
+            }
             //On prépare la commande sql d'insertion
-            $sql = "INSERT INTO animal (espèce, classe, ordre, famille, genre, taille, poids, repartition, habitat, modeDeVie, regimeAlimentaire, incubation, nombreOeufs, maturiteSexuelle, longevite, statutDeConservationUICN, population, menaces, description, statutDeConservationUICN,idLieu) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
-            $pdo->prepare($sql)->execute([$espece, $classe, $ordre, $famille, $genre, $taille, $poids, $repartition, $habitat, $modeDeVie, $regimeAlimentaire, $incubation, $nombreOeufs, $maturiteSexuelle, $longevite, $statutDeConservationUICN, $population, $menaces, $description, $statutDeConservationUICN, $surname, $lieu]);
+            $sql = "INSERT INTO animal (espèce, classe, ordre, famille, genre, taille, poids, repartition, habitat, modeDeVie, regimeAlimentaire, incubation, nombreOeufs, maturiteSexuelle, longevite, statutDeConservationUICN, population, menaces, description, idLieu) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+            $dbh->prepare($sql)->execute([$espece, $classe, $ordre, $famille, $genre, $taille, $poids, $repartition, $habitat, $modeDeVie, $regimeAlimentaire, $incubation, $nombreOeufs, $maturiteSexuelle, $longevite, $statutDeConservationUICN, $population, $menaces, $description, $lieu]);
  
             /*on lance la commande (mysql_query) et au cas où, 
             on rédige un petit message d'erreur si la requête ne passe pas (or die) 
             (Message qui intègrera les causes d'erreur sql)*/
         
-            mysql_query ($sql) or die ('Erreur SQL !'.$sql.'<br />'.mysql_error()); 
  
             // on ferme la connexion
-            mysql_close();
+            $dbh = null;
         }
         ?>
+           
     </body>
 </html>
