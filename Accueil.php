@@ -62,18 +62,16 @@
     <div class="container">
      <div>
         <h1 class="text-center-Map"></h1>
-     </div>
-     <img src="plan/plan.png">
-     <form action="Map_Interactive.php">
- <button class="btn btn-plan">Plan du Zoo</button>
-</form>
-    </div>
+      </div>
+      <img src="plan/plan.png">
+        <form action="Map_Interactive.php">
+            <button class="btn btn-plan">Plan du Zoo</button>
+        </form>
+      </div>
 
-    <div class=square>
+   
 <a href="Map_Interactive.php">
-
 <div class=add><img src="img/add.png" alt="" class="description_img">
-</div>
 </a>
 </div>
 
