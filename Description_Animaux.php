@@ -77,13 +77,14 @@
 
 
 <div class=square>
-<form action="insertion.php">
- <button class="btn btn-billetterie">Billetterie en ligne</button>
-</form>
+<a href="insertion.php">
 
-<img src="img/square.png" alt="" class="description_img">
+ <img src="img/square.png" alt="" class="description_img">
 <div class=add><img src="img/add.png" alt="" class="description_img">
 </div>
+
+</a>
+
 
 
 
