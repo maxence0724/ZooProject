@@ -1,9 +1,3 @@
-<?php
-
-$monCode = $_GET['code'] ; 
-
-?>
-
 <!DOCTYPE html>
 
 <html>
@@ -12,18 +6,19 @@ $monCode = $_GET['code'] ;
 <title>Mon super billet à imprimer</title>
 </head>
 
-<body>
-
-<h1>Hey ! Voici ton beau billet à imprimer</h1>
-
-<p>Tu as la place numéro... <?= $monCode ; ?></p>
-
-<p>Voici ton QR Code à présenter en caisse</p>
-
-<img src="https://chart.googleapis.com/chart?chs=350x350&cht=qr&chl=localhost/check.php?check=<?= $monCode ; ?>&choe=UTF-8" alt="QRCODE"/>
-
-Le lien que je scanne : <a href="http://localhost/check.php?check=<?= $monCode ; ?>">ICI</a>
-</body>
+<?php
+include("connexion.php");
+?>
+<head><title>Formulaire de saisie utilisateur </title></head>
+    <body>
+        <h2>Veuillez renseigner votre nom :</h2>
+        <form name="inscription" method="post" action="afficherQr.php">
+            Nom  : <input type="text" name="nom"/> <br/>
+            <input type="submit" name="valider" value="OK"/>
+        </form>
+        
+        
+    </body>
 
 
 </html>
