@@ -13,6 +13,21 @@ position: relative;
 top: -350px;
 left: 600px;
 }
+
+.btn-plan{
+  background-color: #25b2a2;
+  border: none;
+  color: black;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+position: relative;
+top: -380px;
+}
 .bandeauHaut{
   background-color: #25B2A2;
     

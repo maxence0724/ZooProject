@@ -13,8 +13,14 @@
      <div>
         <h1 class="text-center-Map">Plan Du Zoo</h1>
      </div>
-     <button class="btn-oiseaux">Oiseaux</button>
-     <button class="btn-animauxmarins">animauxmarins</button>
+
+      <form action="Description_Animaux.php">
+         <button class="btn-oiseaux">Oiseaux</button>
+      </form>
+      <form action="Description_Animaux.php">
+         <button class="btn-animauxmarins">animauxmarins</button>
+      </form>
+
     <img src="plan/plan.png">
     </div>
 

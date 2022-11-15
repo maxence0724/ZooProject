@@ -40,7 +40,7 @@
       </div>
       <div class="carousel-item">
         <img class="d-block carousel_image" src="images/zoo3.png" alt="Third slide">
-        <form action="">
+        <form action="Description_Animaux.php">
  <button class="btn btn-billetterie">Nos Animaux</button>
 </form>
         <div class="carousel-caption d-none d-md-block">
@@ -69,7 +69,13 @@
 </form>
     </div>
 
+    <div class=square>
+<a href="Map_Interactive.php">
 
+<div class=add><img src="img/add.png" alt="" class="description_img">
+</div>
+</a>
+</div>
 
  </body>
  <footer>
