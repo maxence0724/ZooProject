@@ -14,7 +14,7 @@
  <body>
  <div class= "row">
      <div class="col-sm-12">
-
+     <h4 class="texte">  </h4>
      <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
@@ -32,7 +32,7 @@
       </div>
       <div class="carousel-item">
         <img class="d-block carousel_image" src="images/zoo2.png" alt="Second slide">
-        <form action="qrcode.php">
+        <form action="">
  <button class="btn btn-billetterie">Planning et Calendrier</button>
 </form>
         <div class="carousel-caption d-none d-md-block">
@@ -40,7 +40,7 @@
       </div>
       <div class="carousel-item">
         <img class="d-block carousel_image" src="images/zoo3.png" alt="Third slide">
-        <form action="Description_Animaux.php">
+        <form action="">
  <button class="btn btn-billetterie">Nos Animaux</button>
 </form>
         <div class="carousel-caption d-none d-md-block">
@@ -58,7 +58,16 @@
 </div>
 </div>
 </div>
-
+<p class="text-center-Map"> ----------------------------------</p>
+    <div class="container">
+     <div>
+        <h1 class="text-center-Map"></h1>
+     </div>
+     <img src="plan/plan.png">
+     <form action="Map_Interactive.php">
+ <button class="btn btn-plan">Plan du Zoo</button>
+</form>
+    </div>
 
 
 
