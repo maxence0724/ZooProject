@@ -1,5 +1,6 @@
 <?php
 include("connexion.php");
+include("include.php");
 ?>
 <?php
         if (isset ($_POST['valider'])){
@@ -30,3 +31,6 @@ include("connexion.php");
         <p>Voici ton QR Code à présenter en caisse</p>
 
         <img src="https://chart.googleapis.com/chart?chs=350x350&cht=qr&chl=localhost/check.php?check=<?= $monCode['Max'] ; ?>&choe=UTF-8" alt="QRCODE"/>
+        <?php
+include("footer.php");
+?>

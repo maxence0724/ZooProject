@@ -1,3 +1,7 @@
+<?php
+include("connexion.php");
+include("include.php");
+?>
 <!DOCTYPE html>
 
 <html>
@@ -6,9 +10,7 @@
 <title>Mon super billet à imprimer</title>
 </head>
 
-<?php
-include("connexion.php");
-?>
+
 <head><title>Formulaire de saisie utilisateur </title></head>
     <body>
         <h2>Veuillez renseigner votre nom :</h2>
@@ -22,3 +24,6 @@ include("connexion.php");
 
 
 </html>
+<?php
+include("footer.php");
+?>

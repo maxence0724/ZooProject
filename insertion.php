@@ -1,8 +1,10 @@
 <?php
 include("connexion.php");
+include("include.php");
 ?>
 <html>
-    <head><title>Formulaire de saisie utilisateur </title></head>
+    <link rel="stylesheet" type="text/css" href="style_insertion.css" />
+    <head><title class= "titre">Formulaire de saisie utilisateur </title></head>
     <body>
         <h1>Nouvel Animal</h1>
         <h2>Entrez les données demandées :</h2>
@@ -88,3 +90,6 @@ include("connexion.php");
            
     </body>
 </html>
+<?php
+include("footer.php");
+?>
