@@ -10,9 +10,9 @@
  <body>
   
 
-<form action="https://buy.stripe.com/test_9AQg1n4bH2CEeGI8ww">
- <button class="btn btn-billetterie">Plan du Zoo</button>
-</form>
+
+ <a href="Map_interactive.php"> <button class="btn btn-billetterie">Plan du Zoo</button></a>
+ 
 
 
  </body>
