@@ -71,10 +71,24 @@
   <img src="img/koala.png" alt="" class="description_img">
   <h3>Koala<h3>
 </div>
+
+
+
+
+
 <div class=square>
+<form action="insertion.php">
+ <button class="btn btn-billetterie">Billetterie en ligne</button>
+</form>
+
 <img src="img/square.png" alt="" class="description_img">
 <div class=add><img src="img/add.png" alt="" class="description_img">
 </div>
+
+
+
+
+
 
 
 </div>
