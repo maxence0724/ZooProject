@@ -14,7 +14,7 @@ top: -350px;
 left: 600px;
 }
 .bandeauHaut{
-    background-color: #25B2A2;
+  background-color: #25B2A2;
     
 }
 
@@ -25,6 +25,7 @@ left: 600px;
 
 .titre{
     position: relative;
+    width: 100%;
 }
 .nom_zoo{
     color:#404040;
@@ -169,3 +170,42 @@ left: 600px;
   position: relative;
   margin: 0;
 }
+
+
+.description_img{
+  width: 200px;
+  height: 200px;
+}
+
+
+
+.aigle{
+  grid-column: 1;
+
+}
+.perroquet_bleu{
+  grid-column: 2;
+}
+
+.perroquet{
+  grid-column: 3;
+}
+
+.autruche{
+  grid-column: 4;
+}
+
+.add{
+  position: relative;
+  top: -200px;
+}
+
+h3{
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  max-width: 200px;
+}
+
