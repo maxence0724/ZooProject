@@ -150,10 +150,10 @@ left: 600px;
   }
 
   .carousel-control-prev-icon{
-      background-color:pink;
+      background-color: #1e1e1e;
   }
   .carousel-control-next-icon{
-      background-color:pink;
+    background-color: #1e1e1e;
   }
   .carousel-item{
       margin-top:50px;
