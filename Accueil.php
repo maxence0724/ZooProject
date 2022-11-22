@@ -58,6 +58,11 @@
 </div>
 </div>
 </div>
+
+<form action="qrcode.php">
+<p>Vous avez acheté un billet ? récupérez le <button style="border: none; background-color:#ffffff;">ici</button> !</p>
+</form>
+
     <div class="container" style="background-color: #c9c9c9; max-width: 100%;">
     <h2 style="font-family: arial; font-size: 80px; color: #404040;"><strong>Notre Parc</strong></h2>
      <div>
