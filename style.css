@@ -134,20 +134,27 @@ top: -380px;
 }
 
 .btn-oiseaux{
-  position:absolute;
-  left:450px;
-  top: 700px;
+  position:relative;
+  right:260px;
+  top: 500px;
   background:rgb(0, 155, 216);
-  display: block;
 }
 
 .btn-animauxmarins{
-  position:absolute;
-  left:450px;
-  top: 450px;
+  position:relative;
+  right:160px;
+  top: 160px;
   background:coral;
-  display: block;
 }
+
+.btn-animauxterrestre{
+position:relative;
+top: 400px;
+left: 100px;
+background: green;
+}
+
+
 /*caroussel css*/
 
 .ModifContainer_page_1{
@@ -236,4 +243,10 @@ h3{
   margin-top: 10px;
   margin-bottom: -10px;
   max-width: 200px;
+}
+
+/* footer */
+
+.logos_footer {
+  width: 100px;
 }

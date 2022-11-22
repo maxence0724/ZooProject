@@ -7,18 +7,20 @@
       <link rel="stylesheet" href="style.css">
    <title>Zoo de Bovalle</title>
  </head>
- <body>
-  <p class="text-center-Map"> ----------------------------------</p>
+ <body style="background-color:#c9c9c9;">
     <div class="container">
      <div>
-        <h1 class="text-center-Map">Plan Du Zoo</h1>
+        <h1 class="text-center-Map" style="font-family: arial; font-size:100px; color: #404040;"><strong>Plan Du Zoo</strong></h1>
      </div>
 
       <form action="Description_Animaux.php">
          <button class="btn-oiseaux">Oiseaux</button>
       </form>
       <form action="Description_Animaux.php">
-         <button class="btn-animauxmarins">animauxmarins</button>
+         <button class="btn-animauxmarins">Animaux marins</button>
+      </form>
+      <form action="Description_Animaux.php">
+         <button class="btn-animauxterrestre">Animaux terrestres</button>
       </form>
 
     <img src="plan/plan.png">

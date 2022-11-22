@@ -58,8 +58,8 @@
 </div>
 </div>
 </div>
-<p class="text-center-Map"> ----------------------------------</p>
-    <div class="container">
+    <div class="container" style="background-color: #c9c9c9; max-width: 100%;">
+    <h2 style="font-family: arial; font-size: 80px; color: #404040;"><strong>Notre Parc</strong></h2>
      <div>
         <h1 class="text-center-Map"></h1>
       </div>
@@ -69,9 +69,9 @@
         </form>
       </div>
 
-   
+
 <a href="Map_Interactive.php">
-<div class=add><img src="img/add.png" alt="" class="description_img">
+
 </a>
 </div>
 

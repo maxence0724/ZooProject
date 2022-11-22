@@ -14,31 +14,31 @@
  <footer>
     <div class="container">
         <div>
-            <h2 class="text-center">Nous contacter</h2>
+            <h2 class="text-center" style="font-family: arial; font-size: 60px; color: #404040;"><strong>Nous contacter</strong></h2>
         </div>    
 
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                 <ul class="reseaux">
-                <a href="#"><img src="logos/facebook.png"></a>
+                <a href="https://fr-fr.facebook.com/zoobeauval/"><img class= logos_footer src="logos/facebook.png"></a>
                 </ul>
             </div>
             
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                 <ul class="reseaux">
-                <a href="#"><img src="logos/youtube.png"></a>
+                <a href="https://www.youtube.com/channel/UC4psdqJ8YMY5A0FDoRINQRg"><img class= logos_footer src="logos/youtube.png"></a>
                 </ul>
             </div>
        
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                 <ul class="reseaux">
-                <a href="#"><img src="logos/twitter.png"></a>
+                <a href="https://twitter.com/zoobeauval?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class= logos_footer src="logos/twitter.png"></a>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                 <ul class="reseaux">
                     
-                <a href="#"><img src="logos/instagram.png"></a>
+                <a href="https://www.instagram.com/zoobeauval/?hl=fr"><img class= logos_footer src="logos/instagram.png"></a>
                     
                 </ul>
             </div>
